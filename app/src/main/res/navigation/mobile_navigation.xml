@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_suma">
+
+    <fragment
+        android:id="@+id/nav_suma"
+        android:name="com.example.calculadoramatrices.suma"
+        android:label="@string/menu_suma"
+        tools:layout="@layout/fragment_suma" />
+    <fragment
+        android:id="@+id/nav_resta"
+        android:name="com.example.calculadoramatrices.resta"
+        android:label="@string/menu_resta"
+        tools:layout="@layout/fragment_resta" />
+    <fragment
+        android:id="@+id/multiplicacion"
+        android:name="com.example.calculadoramatrices.multiplicacion"
+        android:label="@string/menu_multiplicacion"
+        tools:layout="@layout/fragment_multiplicacion" />
+    <fragment
+        android:id="@+id/multiplicacion_mat"
+        android:name="com.example.calculadoramatrices.multiplicacion_mat"
+        android:label="@string/menu_multiplicacion_mat"
+        tools:layout="@layout/fragment_multiplicacion_mat" />
+    <fragment
+        android:id="@+id/determinante"
+        android:name="com.example.calculadoramatrices.determinante"
+        android:label="@string/menu_determinante"
+        tools:layout="@layout/fragment_determinante" />
+    <fragment
+        android:id="@+id/adjunta"
+        android:name="com.example.calculadoramatrices.adjunta"
+        android:label="@string/menu_adjunta"
+        tools:layout="@layout/fragment_adjunta" />
+    <fragment
+        android:id="@+id/transpuesta"
+        android:name="com.example.calculadoramatrices.transpuesta"
+        android:label="@string/menu_transpuesta"
+        tools:layout="@layout/fragment_transpuesta" />
+    <fragment
+        android:id="@+id/inversa"
+        android:name="com.example.calculadoramatrices.inversa"
+        android:label="@string/menu_inversa"
+        tools:layout="@layout/fragment_inversa" />
+</navigation>

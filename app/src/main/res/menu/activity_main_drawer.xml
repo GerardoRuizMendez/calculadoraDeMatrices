@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_suma"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_suma" />
+        <item
+            android:id="@+id/nav_resta"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_resta" />
+        <item
+            android:id="@+id/multiplicacion"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_multiplicacion" />
+        <item
+            android:id="@+id/multiplicacion_mat"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_multiplicacion_mat" />
+        <item
+            android:id="@+id/determinante"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_determinante" />
+        <item
+            android:id="@+id/adjunta"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_adjunta" />
+        <item
+            android:id="@+id/transpuesta"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_transpuesta" />
+        <item
+            android:id="@+id/inversa"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_inversa" />
+    </group>
+</menu>
